@@ -1,0 +1,683 @@
+2021-05-18T11:09:40,786-0300 [32300 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T11:09:40,786-0300 [32300 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T11:09:40,786-0300 [32300 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T11:09:40,787-0300 [32300 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T11:09:40,787-0300 [32300 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T11:09:40,787-0300 [32300 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T11:09:41,887-0300 [32300 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T11:09:43,338-0300 [32300 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.nrak-ejyj.nr-data.net:443
+2021-05-18T11:09:43,938-0300 [32300 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T11:09:44,212-0300 [32300 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T11:09:44,221-0300 [32300 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T11:09:44,221-0300 [32300 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T11:09:44,221-0300 [32300 1] com.newrelic INFO: Premain startup complete in 4.914ms
+2021-05-18T11:09:49,601-0300 [32300 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T11:09:54,221-0300 [32300 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application My Application
+2021-05-18T11:09:54,442-0300 [32300 36] com.newrelic INFO: Remote preconnect call failed : java.net.UnknownHostException: collector.nrak-ejyj.nr-data.net: Name or service not known.
+2021-05-18T11:09:54,443-0300 [32300 36] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.nrak-ejyj.nr-data.net:443 for My Application: java.net.UnknownHostException: collector.nrak-ejyj.nr-data.net: Name or service not known
+2021-05-18T11:10:09,444-0300 [32300 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application My Application
+2021-05-18T11:10:09,956-0300 [32300 36] com.newrelic INFO: Remote preconnect call failed : java.net.UnknownHostException: collector.nrak-ejyj.nr-data.net: Name or service not known.
+2021-05-18T11:10:09,956-0300 [32300 36] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.nrak-ejyj.nr-data.net:443 for My Application: java.net.UnknownHostException: collector.nrak-ejyj.nr-data.net: Name or service not known
+2021-05-18T11:10:24,959-0300 [32300 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application My Application
+2021-05-18T11:10:25,193-0300 [32300 36] com.newrelic INFO: Remote preconnect call failed : java.net.UnknownHostException: collector.nrak-ejyj.nr-data.net: Name or service not known.
+2021-05-18T11:10:25,194-0300 [32300 36] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.nrak-ejyj.nr-data.net:443 for My Application: java.net.UnknownHostException: collector.nrak-ejyj.nr-data.net: Name or service not known
+2021-05-18T11:10:55,202-0300 [32300 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application My Application
+2021-05-18T11:10:56,469-0300 [32300 36] com.newrelic INFO: Remote preconnect call failed : java.net.UnknownHostException: collector.nrak-ejyj.nr-data.net: Name or service not known.
+2021-05-18T11:10:56,469-0300 [32300 36] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.nrak-ejyj.nr-data.net:443 for My Application: java.net.UnknownHostException: collector.nrak-ejyj.nr-data.net: Name or service not known
+2021-05-18T11:11:56,473-0300 [32300 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application My Application
+2021-05-18T11:11:56,810-0300 [32300 36] com.newrelic INFO: Remote preconnect call failed : java.net.UnknownHostException: collector.nrak-ejyj.nr-data.net: Name or service not known.
+2021-05-18T11:11:56,810-0300 [32300 36] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.nrak-ejyj.nr-data.net:443 for My Application: java.net.UnknownHostException: collector.nrak-ejyj.nr-data.net: Name or service not known
+2021-05-18T11:13:56,817-0300 [32300 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application My Application
+2021-05-18T11:13:57,058-0300 [32300 36] com.newrelic INFO: Remote preconnect call failed : java.net.UnknownHostException: collector.nrak-ejyj.nr-data.net: Name or service not known.
+2021-05-18T11:13:57,058-0300 [32300 36] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.nrak-ejyj.nr-data.net:443 for My Application: java.net.UnknownHostException: collector.nrak-ejyj.nr-data.net: Name or service not known
+2021-05-18T11:18:57,072-0300 [32300 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application My Application
+2021-05-18T11:18:57,586-0300 [32300 36] com.newrelic INFO: Remote preconnect call failed : java.net.UnknownHostException: collector.nrak-ejyj.nr-data.net: Name or service not known.
+2021-05-18T11:18:57,586-0300 [32300 36] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.nrak-ejyj.nr-data.net:443 for My Application: java.net.UnknownHostException: collector.nrak-ejyj.nr-data.net: Name or service not known
+2021-05-18T11:21:54,405-0300 [32300 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T11:21:54,408-0300 [32300 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T11:23:15,688-0300 [3653 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T11:23:15,688-0300 [3653 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T11:23:15,688-0300 [3653 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T11:23:15,688-0300 [3653 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T11:23:15,688-0300 [3653 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T11:23:15,689-0300 [3653 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T11:23:16,357-0300 [3653 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T11:23:17,774-0300 [3653 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T11:23:18,601-0300 [3653 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T11:23:18,982-0300 [3653 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T11:23:18,995-0300 [3653 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T11:23:18,995-0300 [3653 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T11:23:18,996-0300 [3653 1] com.newrelic INFO: Premain startup complete in 4.187ms
+2021-05-18T11:23:27,319-0300 [3653 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T11:23:33,997-0300 [3653 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application My Application
+2021-05-18T11:23:35,513-0300 [3653 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T11:23:36,747-0300 [3653 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T11:23:36,747-0300 [3653 36] com.newrelic INFO: Agent run id: BYONNdKH9yBXAB3FrDioJdNgo848AAIBAAAnIQEAAA5FAgQ4qCXRAwAFNi41LjAACm5pLTU2MzUzLTkADk15IEFwcGxpY2F0aW9u
+2021-05-18T11:23:36,748-0300 [3653 36] com.newrelic INFO: Agent 3653@ni-56353-9/My Application connected to collector.newrelic.com:443
+2021-05-18T11:23:36,749-0300 [3653 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950543825
+2021-05-18T11:23:36,753-0300 [3653 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T11:23:36,757-0300 [3653 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T11:23:37,552-0300 [3653 36] com.newrelic INFO: Real user monitoring is enabled for application My Application. Auto instrumentation is enabled.
+2021-05-18T11:24:31,510-0300 [3653 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T11:24:32,626-0300 [3653 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T11:24:47,138-0300 [4249 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T11:24:47,139-0300 [4249 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T11:24:47,139-0300 [4249 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T11:24:47,139-0300 [4249 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T11:24:47,140-0300 [4249 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T11:24:47,140-0300 [4249 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T11:24:48,444-0300 [4249 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T11:24:50,933-0300 [4249 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T11:24:51,664-0300 [4249 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T11:24:52,195-0300 [4249 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T11:24:52,217-0300 [4249 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T11:24:52,217-0300 [4249 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T11:24:52,218-0300 [4249 1] com.newrelic INFO: Premain startup complete in 6.597ms
+2021-05-18T11:24:58,532-0300 [4249 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T11:25:02,211-0300 [4249 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T11:25:03,184-0300 [4249 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T11:25:04,193-0300 [4249 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T11:25:04,193-0300 [4249 36] com.newrelic INFO: Agent run id: BcfWJUTfH77aAB3FrDioKppgo860AAIBAAAnIQEAABCZAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T11:25:04,194-0300 [4249 36] com.newrelic INFO: Agent 4249@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T11:25:04,194-0300 [4249 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T11:25:04,197-0300 [4249 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T11:25:04,199-0300 [4249 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T11:25:04,990-0300 [4249 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T11:28:28,270-0300 [4249 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T11:28:29,171-0300 [4249 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T12:32:54,000-0300 [17675 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T12:32:54,001-0300 [17675 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T12:32:54,001-0300 [17675 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T12:32:54,002-0300 [17675 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T12:32:54,002-0300 [17675 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T12:32:54,002-0300 [17675 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T12:32:55,222-0300 [17675 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T12:32:57,993-0300 [17675 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T12:32:58,320-0300 [17675 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T12:32:58,546-0300 [17675 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T12:32:58,558-0300 [17675 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T12:32:58,558-0300 [17675 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T12:32:58,558-0300 [17675 1] com.newrelic INFO: Premain startup complete in 6.085ms
+2021-05-18T12:33:04,180-0300 [17675 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T12:33:08,557-0300 [17675 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T12:33:09,807-0300 [17675 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T12:33:10,459-0300 [17675 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T12:33:10,460-0300 [17675 36] com.newrelic INFO: Agent run id: BZQwUmLn3poPAB3FrDioKppgo96kAAIBAAAnIQEAAEULAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T12:33:10,460-0300 [17675 36] com.newrelic INFO: Agent 17675@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T12:33:10,462-0300 [17675 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T12:33:10,465-0300 [17675 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T12:33:10,470-0300 [17675 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T12:33:11,228-0300 [17675 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T13:32:40,617-0300 [17675 59] com.newrelic INFO: Remote get_agent_commands call failed : java.net.SocketTimeoutException: Read timed out.
+2021-05-18T13:32:40,621-0300 [17675 60] com.newrelic INFO: Remote span_event_data call failed : java.net.UnknownHostException: collector-003.newrelic.com: Name or service not known.
+2021-05-18T13:32:40,625-0300 [17675 59] com.newrelic INFO: Remote metric_data call failed : java.net.UnknownHostException: collector-003.newrelic.com.
+2021-05-18T13:32:40,625-0300 [17675 59] com.newrelic INFO: An unexpected error occurred sending metric data to New Relic. Please file a support ticket once you have seen several of these messages in a short period of time: java.net.UnknownHostException: collector-003.newrelic.com
+2021-05-18T13:32:40,629-0300 [17675 59] com.newrelic INFO: Remote transaction_sample_data call failed : java.net.UnknownHostException: collector-003.newrelic.com.
+2021-05-18T13:32:40,630-0300 [17675 59] com.newrelic INFO: Remote get_agent_commands call failed : java.net.UnknownHostException: collector-003.newrelic.com.
+2021-05-18T13:32:40,634-0300 [17675 59] com.newrelic INFO: Remote metric_data call failed : java.net.UnknownHostException: collector-003.newrelic.com.
+2021-05-18T13:32:40,634-0300 [17675 59] com.newrelic INFO: An unexpected error occurred sending metric data to New Relic. Please file a support ticket once you have seen several of these messages in a short period of time: java.net.UnknownHostException: collector-003.newrelic.com
+2021-05-18T13:33:40,517-0300 [17675 59] com.newrelic INFO: Remote get_agent_commands call failed : java.net.UnknownHostException: collector-003.newrelic.com: Name or service not known.
+2021-05-18T13:33:40,521-0300 [17675 59] com.newrelic INFO: Remote metric_data call failed : java.net.UnknownHostException: collector-003.newrelic.com.
+2021-05-18T13:33:40,521-0300 [17675 59] com.newrelic INFO: An unexpected error occurred sending metric data to New Relic. Please file a support ticket once you have seen several of these messages in a short period of time: java.net.UnknownHostException: collector-003.newrelic.com
+2021-05-18T13:34:40,517-0300 [17675 59] com.newrelic INFO: Remote get_agent_commands call failed : java.net.UnknownHostException: collector-003.newrelic.com: Name or service not known.
+2021-05-18T13:34:40,524-0300 [17675 59] com.newrelic INFO: Remote metric_data call failed : java.net.UnknownHostException: collector-003.newrelic.com.
+2021-05-18T13:34:40,524-0300 [17675 59] com.newrelic INFO: An unexpected error occurred sending metric data to New Relic. Please file a support ticket once you have seen several of these messages in a short period of time: java.net.UnknownHostException: collector-003.newrelic.com
+2021-05-18T13:35:40,516-0300 [17675 59] com.newrelic INFO: Remote get_agent_commands call failed : java.net.UnknownHostException: collector-003.newrelic.com: Name or service not known.
+2021-05-18T13:35:40,521-0300 [17675 59] com.newrelic INFO: Remote metric_data call failed : java.net.UnknownHostException: collector-003.newrelic.com.
+2021-05-18T13:35:40,522-0300 [17675 59] com.newrelic INFO: An unexpected error occurred sending metric data to New Relic. Please file a support ticket once you have seen several of these messages in a short period of time: java.net.UnknownHostException: collector-003.newrelic.com
+2021-05-18T13:36:40,517-0300 [17675 59] com.newrelic INFO: Remote get_agent_commands call failed : java.net.UnknownHostException: collector-003.newrelic.com: Name or service not known.
+2021-05-18T13:36:40,523-0300 [17675 59] com.newrelic INFO: Remote metric_data call failed : java.net.UnknownHostException: collector-003.newrelic.com.
+2021-05-18T13:36:40,523-0300 [17675 59] com.newrelic INFO: An unexpected error occurred sending metric data to New Relic. Please file a support ticket once you have seen several of these messages in a short period of time: java.net.UnknownHostException: collector-003.newrelic.com
+2021-05-18T13:37:40,517-0300 [17675 59] com.newrelic INFO: Remote get_agent_commands call failed : java.net.UnknownHostException: collector-003.newrelic.com: Name or service not known.
+2021-05-18T13:37:40,523-0300 [17675 59] com.newrelic INFO: Remote metric_data call failed : java.net.UnknownHostException: collector-003.newrelic.com.
+2021-05-18T13:37:40,523-0300 [17675 59] com.newrelic INFO: An unexpected error occurred sending metric data to New Relic. Please file a support ticket once you have seen several of these messages in a short period of time: java.net.UnknownHostException: collector-003.newrelic.com
+2021-05-18T13:38:40,518-0300 [17675 59] com.newrelic INFO: Remote get_agent_commands call failed : java.net.UnknownHostException: collector-003.newrelic.com: Name or service not known.
+2021-05-18T13:38:40,527-0300 [17675 59] com.newrelic INFO: Remote metric_data call failed : java.net.UnknownHostException: collector-003.newrelic.com.
+2021-05-18T13:38:40,528-0300 [17675 59] com.newrelic INFO: An unexpected error occurred sending metric data to New Relic. Please file a support ticket once you have seen several of these messages in a short period of time: java.net.UnknownHostException: collector-003.newrelic.com
+2021-05-18T13:39:42,404-0300 [17675 59] com.newrelic INFO: Successfully reconnected to the New Relic data service.
+2021-05-18T13:41:22,082-0300 [17675 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T13:41:22,974-0300 [17675 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T13:50:34,597-0300 [2475 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T13:50:34,598-0300 [2475 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T13:50:34,598-0300 [2475 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T13:50:34,598-0300 [2475 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T13:50:34,598-0300 [2475 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T13:50:34,598-0300 [2475 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T13:50:35,351-0300 [2475 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T13:50:36,517-0300 [2475 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T13:50:36,777-0300 [2475 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T13:50:36,958-0300 [2475 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T13:50:36,966-0300 [2475 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T13:50:36,966-0300 [2475 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T13:50:36,967-0300 [2475 1] com.newrelic INFO: Premain startup complete in 3.208ms
+2021-05-18T13:50:41,500-0300 [2475 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T13:50:46,967-0300 [2475 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T13:50:48,559-0300 [2475 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T13:50:49,671-0300 [2475 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T13:50:49,672-0300 [2475 36] com.newrelic INFO: Agent run id: BZ6sz037B1WfAB3FrDioKppgo_CwAAIBAAAnIQEAAAmrAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T13:50:49,672-0300 [2475 36] com.newrelic INFO: Agent 2475@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T13:50:49,673-0300 [2475 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T13:50:49,676-0300 [2475 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T13:50:49,679-0300 [2475 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T13:50:50,474-0300 [2475 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T14:05:57,065-0300 [2475 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T14:05:57,513-0300 [2475 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T14:09:12,461-0300 [8832 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T14:09:12,462-0300 [8832 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T14:09:12,462-0300 [8832 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T14:09:12,462-0300 [8832 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T14:09:12,462-0300 [8832 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T14:09:12,462-0300 [8832 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T14:09:13,035-0300 [8832 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T14:09:14,086-0300 [8832 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T14:09:14,314-0300 [8832 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T14:09:14,463-0300 [8832 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T14:09:14,470-0300 [8832 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T14:09:14,471-0300 [8832 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T14:09:14,471-0300 [8832 1] com.newrelic INFO: Premain startup complete in 2.752ms
+2021-05-18T14:09:19,691-0300 [8832 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T14:09:23,058-0300 [8832 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T14:09:23,062-0300 [8832 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T14:10:45,391-0300 [9286 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T14:10:45,392-0300 [9286 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T14:10:45,392-0300 [9286 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T14:10:45,392-0300 [9286 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T14:10:45,392-0300 [9286 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T14:10:45,392-0300 [9286 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T14:10:46,038-0300 [9286 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T14:10:46,959-0300 [9286 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T14:10:47,272-0300 [9286 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T14:10:47,426-0300 [9286 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T14:10:47,435-0300 [9286 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T14:10:47,435-0300 [9286 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T14:10:47,436-0300 [9286 1] com.newrelic INFO: Premain startup complete in 2.808ms
+2021-05-18T14:10:53,196-0300 [9286 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T14:11:02,434-0300 [9286 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T14:11:03,578-0300 [9286 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T14:11:04,601-0300 [9286 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T14:11:04,601-0300 [9286 36] com.newrelic INFO: Agent run id: BcNv44r4TZR_AB3FrDioKppgo_WcAAIBAAAnIQEAACRGAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T14:11:04,602-0300 [9286 36] com.newrelic INFO: Agent 9286@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T14:11:04,602-0300 [9286 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T14:11:04,603-0300 [9286 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:11:04,605-0300 [9286 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:11:05,764-0300 [9286 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T14:13:54,809-0300 [9286 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T14:13:55,602-0300 [9286 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T14:14:02,362-0300 [10166 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T14:14:02,362-0300 [10166 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T14:14:02,362-0300 [10166 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T14:14:02,362-0300 [10166 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T14:14:02,362-0300 [10166 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T14:14:02,362-0300 [10166 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T14:14:03,239-0300 [10166 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T14:14:04,273-0300 [10166 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T14:14:04,580-0300 [10166 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T14:14:04,771-0300 [10166 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T14:14:04,779-0300 [10166 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T14:14:04,780-0300 [10166 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T14:14:04,780-0300 [10166 1] com.newrelic INFO: Premain startup complete in 3.542ms
+2021-05-18T14:14:10,376-0300 [10166 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T14:14:19,779-0300 [10166 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T14:14:20,801-0300 [10166 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T14:14:21,632-0300 [10166 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T14:14:21,632-0300 [10166 36] com.newrelic INFO: Agent run id: BRRs3MPe9kitAB3FrDioKppgo_ZQAAIBAAAnIQEAACe2AgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T14:14:21,632-0300 [10166 36] com.newrelic INFO: Agent 10166@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T14:14:21,632-0300 [10166 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T14:14:21,634-0300 [10166 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:14:21,636-0300 [10166 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:14:22,338-0300 [10166 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T14:18:56,684-0300 [10166 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T14:18:57,062-0300 [10166 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T14:19:04,670-0300 [11480 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T14:19:04,671-0300 [11480 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T14:19:04,671-0300 [11480 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T14:19:04,671-0300 [11480 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T14:19:04,671-0300 [11480 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T14:19:04,671-0300 [11480 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T14:19:05,342-0300 [11480 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T14:19:06,352-0300 [11480 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T14:19:06,661-0300 [11480 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T14:19:06,836-0300 [11480 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T14:19:06,847-0300 [11480 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T14:19:06,847-0300 [11480 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T14:19:06,848-0300 [11480 1] com.newrelic INFO: Premain startup complete in 2.970ms
+2021-05-18T14:19:12,662-0300 [11480 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T14:19:21,846-0300 [11480 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T14:19:22,871-0300 [11480 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T14:19:23,483-0300 [11480 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T14:19:23,484-0300 [11480 36] com.newrelic INFO: Agent run id: BTLwckGJFwuHAB3FrDioKppgo_d8AAIBAAAnIQEAACzYAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T14:19:23,484-0300 [11480 36] com.newrelic INFO: Agent 11480@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T14:19:23,484-0300 [11480 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T14:19:23,486-0300 [11480 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:19:23,487-0300 [11480 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:19:24,299-0300 [11480 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T14:23:07,168-0300 [11480 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T14:23:07,547-0300 [11480 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T14:23:14,544-0300 [12630 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T14:23:14,545-0300 [12630 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T14:23:14,545-0300 [12630 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T14:23:14,545-0300 [12630 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T14:23:14,545-0300 [12630 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T14:23:14,545-0300 [12630 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T14:23:15,194-0300 [12630 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T14:23:16,328-0300 [12630 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T14:23:16,616-0300 [12630 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T14:23:16,761-0300 [12630 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T14:23:16,768-0300 [12630 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T14:23:16,768-0300 [12630 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T14:23:16,769-0300 [12630 1] com.newrelic INFO: Premain startup complete in 3.021ms
+2021-05-18T14:23:22,391-0300 [12630 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T14:23:31,767-0300 [12630 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T14:23:32,945-0300 [12630 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T14:23:33,543-0300 [12630 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T14:23:33,543-0300 [12630 36] com.newrelic INFO: Agent run id: Bbg1EUb9nZRnAB3FrDioKppgo_hsAAIBAAAnIQEAADFWAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T14:23:33,543-0300 [12630 36] com.newrelic INFO: Agent 12630@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T14:23:33,544-0300 [12630 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T14:23:33,545-0300 [12630 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:23:33,547-0300 [12630 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:23:34,357-0300 [12630 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T14:30:03,650-0300 [12630 62] com.newrelic INFO: Remote get_agent_commands call failed : java.net.SocketTimeoutException: Read timed out.
+2021-05-18T14:37:55,442-0300 [12630 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T14:37:56,263-0300 [12630 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T14:43:29,736-0300 [868 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T14:43:29,737-0300 [868 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T14:43:29,737-0300 [868 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T14:43:29,737-0300 [868 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T14:43:29,737-0300 [868 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T14:43:29,737-0300 [868 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T14:43:31,313-0300 [868 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T14:43:33,127-0300 [868 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T14:43:33,423-0300 [868 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T14:43:33,664-0300 [868 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T14:43:33,672-0300 [868 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T14:43:33,672-0300 [868 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T14:43:33,672-0300 [868 1] com.newrelic INFO: Premain startup complete in 4.742ms
+2021-05-18T14:43:38,882-0300 [868 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T14:43:48,671-0300 [868 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T14:43:49,771-0300 [868 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T14:43:50,284-0300 [868 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T14:43:50,284-0300 [868 36] com.newrelic INFO: Agent run id: Bf0oTMziPyDiAB3FrDioKppgo_0cAAIBAAAnIQEAAANkAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T14:43:50,285-0300 [868 36] com.newrelic INFO: Agent 868@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T14:43:50,285-0300 [868 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T14:43:50,286-0300 [868 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:43:50,288-0300 [868 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:43:50,988-0300 [868 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T14:48:22,055-0300 [868 62] com.newrelic INFO: Remote metric_data call failed : com.newrelic.agent.ForceRestartException: .
+2021-05-18T14:48:22,056-0300 [868 62] com.newrelic WARN: Received a ForceRestartException: com.newrelic.agent.ForceRestartException: . The agent will attempt to reconnect for data reporting. If this message continues, please contact support@newrelic.com.
+2021-05-18T14:48:22,881-0300 [868 62] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T14:48:25,243-0300 [868 62] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T14:48:26,299-0300 [868 62] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T14:48:26,299-0300 [868 62] com.newrelic INFO: Agent run id: BQpeUouo0xnUAB3FrDioKppgo_5IAAIBAAAnIQEAAANkAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T14:48:26,299-0300 [868 62] com.newrelic INFO: Agent 868@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T14:48:26,299-0300 [868 62] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T14:48:26,300-0300 [868 62] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:48:26,302-0300 [868 62] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:48:26,304-0300 [868 62] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T14:49:52,599-0300 [868 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T14:49:53,528-0300 [868 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T14:51:39,186-0300 [8795 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T14:51:39,186-0300 [8795 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T14:51:39,187-0300 [8795 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T14:51:39,187-0300 [8795 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T14:51:39,187-0300 [8795 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T14:51:39,187-0300 [8795 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T14:51:40,201-0300 [8795 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T14:51:41,236-0300 [8795 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T14:51:41,533-0300 [8795 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T14:51:41,698-0300 [8795 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T14:51:41,706-0300 [8795 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T14:51:41,706-0300 [8795 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T14:51:41,706-0300 [8795 1] com.newrelic INFO: Premain startup complete in 3.581ms
+2021-05-18T14:51:47,306-0300 [8795 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T14:51:56,706-0300 [8795 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T14:51:57,724-0300 [8795 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T14:51:58,341-0300 [8795 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T14:51:58,341-0300 [8795 36] com.newrelic INFO: Agent run id: Bfyc-U2FqGUjAB3FrDioKppgo_78AAIBAAAnIQEAACJbAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T14:51:58,342-0300 [8795 36] com.newrelic INFO: Agent 8795@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T14:51:58,342-0300 [8795 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T14:51:58,343-0300 [8795 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:51:58,345-0300 [8795 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:51:59,150-0300 [8795 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T14:54:25,732-0300 [8795 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T14:54:26,648-0300 [8795 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T14:54:33,482-0300 [10397 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T14:54:33,483-0300 [10397 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T14:54:33,483-0300 [10397 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T14:54:33,483-0300 [10397 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T14:54:33,483-0300 [10397 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T14:54:33,483-0300 [10397 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T14:54:34,265-0300 [10397 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T14:54:35,466-0300 [10397 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T14:54:35,865-0300 [10397 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T14:54:36,076-0300 [10397 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T14:54:36,087-0300 [10397 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T14:54:36,087-0300 [10397 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T14:54:36,088-0300 [10397 1] com.newrelic INFO: Premain startup complete in 3.722ms
+2021-05-18T14:54:42,571-0300 [10397 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T14:54:51,086-0300 [10397 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T14:54:52,019-0300 [10397 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T14:54:53,185-0300 [10397 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T14:54:53,186-0300 [10397 36] com.newrelic INFO: Agent run id: BRrAUuXfaLScAB3FrDioKppgo_-wAAIBAAAnIQEAACidAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T14:54:53,186-0300 [10397 36] com.newrelic INFO: Agent 10397@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T14:54:53,187-0300 [10397 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T14:54:53,188-0300 [10397 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:54:53,190-0300 [10397 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T14:54:53,517-0300 [10397 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T15:03:52,938-0300 [10397 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T15:03:53,279-0300 [10397 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T15:04:07,049-0300 [15357 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T15:04:07,050-0300 [15357 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T15:04:07,050-0300 [15357 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T15:04:07,050-0300 [15357 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T15:04:07,050-0300 [15357 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T15:04:07,050-0300 [15357 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T15:04:08,324-0300 [15357 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T15:04:10,551-0300 [15357 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T15:04:11,667-0300 [15357 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T15:04:12,147-0300 [15357 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T15:04:12,171-0300 [15357 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T15:04:12,171-0300 [15357 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T15:04:12,172-0300 [15357 1] com.newrelic INFO: Premain startup complete in 6.436ms
+2021-05-18T15:04:22,061-0300 [15357 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T15:04:32,168-0300 [15357 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T15:04:32,904-0300 [15357 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T15:04:33,868-0300 [15357 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T15:04:33,868-0300 [15357 36] com.newrelic INFO: Agent run id: BWGZ0N-gMxznAB3FrDioKppgpAIIAAIBAAAnIQEAADv9AgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T15:04:33,868-0300 [15357 36] com.newrelic INFO: Agent 15357@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T15:04:33,869-0300 [15357 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T15:04:33,870-0300 [15357 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:04:33,872-0300 [15357 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:04:34,604-0300 [15357 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T15:15:03,164-0300 [15357 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T15:15:03,913-0300 [15357 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T15:15:18,327-0300 [20731 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T15:15:18,328-0300 [20731 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T15:15:18,328-0300 [20731 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T15:15:18,328-0300 [20731 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T15:15:18,328-0300 [20731 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T15:15:18,328-0300 [20731 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T15:15:19,571-0300 [20731 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T15:15:21,246-0300 [20731 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T15:15:21,761-0300 [20731 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T15:15:21,983-0300 [20731 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T15:15:21,991-0300 [20731 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T15:15:21,992-0300 [20731 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T15:15:21,992-0300 [20731 1] com.newrelic INFO: Premain startup complete in 4.843ms
+2021-05-18T15:15:30,079-0300 [20731 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T15:15:41,995-0300 [20731 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T15:15:43,211-0300 [20731 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T15:15:44,109-0300 [20731 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T15:15:44,110-0300 [20731 36] com.newrelic INFO: Agent run id: BQqkOQOom-rgAB3FrDioKppgpAScAAIBAAAnIQEAAFD7AgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T15:15:44,110-0300 [20731 36] com.newrelic INFO: Agent 20731@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T15:15:44,111-0300 [20731 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T15:15:44,115-0300 [20731 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:15:44,121-0300 [20731 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:15:45,280-0300 [20731 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T15:17:53,916-0300 [20731 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T15:17:54,659-0300 [20731 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T15:18:02,262-0300 [22093 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T15:18:02,262-0300 [22093 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T15:18:02,262-0300 [22093 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T15:18:02,263-0300 [22093 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T15:18:02,263-0300 [22093 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T15:18:02,263-0300 [22093 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T15:18:03,331-0300 [22093 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T15:18:04,557-0300 [22093 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T15:18:04,897-0300 [22093 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T15:18:05,095-0300 [22093 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T15:18:05,106-0300 [22093 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T15:18:05,107-0300 [22093 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T15:18:05,107-0300 [22093 1] com.newrelic INFO: Premain startup complete in 3.887ms
+2021-05-18T15:18:11,671-0300 [22093 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T15:18:20,104-0300 [22093 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T15:18:21,542-0300 [22093 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T15:18:22,402-0300 [22093 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T15:18:22,402-0300 [22093 36] com.newrelic INFO: Agent run id: BWjR_cOZW6vsAB3FrDioKppgpAVQAAIBAAAnIQEAAFZNAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T15:18:22,403-0300 [22093 36] com.newrelic INFO: Agent 22093@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T15:18:22,404-0300 [22093 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T15:18:22,406-0300 [22093 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:18:22,412-0300 [22093 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:18:23,194-0300 [22093 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T15:25:42,511-0300 [22093 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T15:25:43,343-0300 [22093 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T15:25:49,749-0300 [26066 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T15:25:49,749-0300 [26066 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T15:25:49,749-0300 [26066 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T15:25:49,749-0300 [26066 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T15:25:49,750-0300 [26066 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T15:25:49,750-0300 [26066 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T15:25:50,613-0300 [26066 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T15:25:52,072-0300 [26066 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T15:25:52,444-0300 [26066 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T15:25:52,645-0300 [26066 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T15:25:52,657-0300 [26066 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T15:25:52,657-0300 [26066 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T15:25:52,657-0300 [26066 1] com.newrelic INFO: Premain startup complete in 3.846ms
+2021-05-18T15:26:00,449-0300 [26066 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T15:26:12,655-0300 [26066 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T15:26:13,456-0300 [26066 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T15:26:14,314-0300 [26066 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T15:26:14,314-0300 [26066 36] com.newrelic INFO: Agent run id: BSeGrx20008FAB3FrDioKppgpAcwAAIBAAAnIQEAAGXSAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T15:26:14,315-0300 [26066 36] com.newrelic INFO: Agent 26066@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T15:26:14,316-0300 [26066 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T15:26:14,321-0300 [26066 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:26:14,325-0300 [26066 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:26:15,149-0300 [26066 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T15:30:45,405-0300 [26066 62] com.newrelic INFO: Remote metric_data call failed : com.newrelic.agent.ForceRestartException: .
+2021-05-18T15:30:45,406-0300 [26066 62] com.newrelic WARN: Received a ForceRestartException: com.newrelic.agent.ForceRestartException: . The agent will attempt to reconnect for data reporting. If this message continues, please contact support@newrelic.com.
+2021-05-18T15:30:46,164-0300 [26066 62] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T15:30:47,150-0300 [26066 62] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T15:30:48,202-0300 [26066 62] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T15:30:48,202-0300 [26066 62] com.newrelic INFO: Agent run id: BX9ghHXOtgUXAB3FrDioKppgpAggAAIBAAAnIQEAAGXSAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T15:30:48,202-0300 [26066 62] com.newrelic INFO: Agent 26066@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T15:30:48,202-0300 [26066 62] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T15:30:48,202-0300 [26066 62] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:30:48,204-0300 [26066 62] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:30:48,207-0300 [26066 62] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T15:35:55,886-0300 [26066 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T15:35:56,654-0300 [26066 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T15:36:06,997-0300 [31183 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T15:36:06,998-0300 [31183 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T15:36:06,998-0300 [31183 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T15:36:06,998-0300 [31183 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T15:36:06,998-0300 [31183 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T15:36:06,998-0300 [31183 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T15:36:07,851-0300 [31183 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T15:36:09,187-0300 [31183 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T15:36:09,546-0300 [31183 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T15:36:09,750-0300 [31183 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T15:36:09,762-0300 [31183 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T15:36:09,762-0300 [31183 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T15:36:09,763-0300 [31183 1] com.newrelic INFO: Premain startup complete in 3.823ms
+2021-05-18T15:36:17,185-0300 [31183 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T15:36:24,761-0300 [31183 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T15:36:25,832-0300 [31183 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T15:36:26,921-0300 [31183 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T15:36:26,921-0300 [31183 36] com.newrelic INFO: Agent run id: BaoAJlLgTQ56AB3FrDioKppgpAmIAAIBAAAnIQEAAHnPAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T15:36:26,922-0300 [31183 36] com.newrelic INFO: Agent 31183@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T15:36:26,922-0300 [31183 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T15:36:26,923-0300 [31183 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:36:26,925-0300 [31183 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:36:27,653-0300 [31183 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T15:42:38,818-0300 [31183 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T15:42:39,556-0300 [31183 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T15:42:46,321-0300 [2666 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T15:42:46,321-0300 [2666 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T15:42:46,321-0300 [2666 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T15:42:46,321-0300 [2666 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T15:42:46,322-0300 [2666 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T15:42:46,322-0300 [2666 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T15:42:47,146-0300 [2666 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T15:42:48,717-0300 [2666 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T15:42:49,161-0300 [2666 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T15:42:49,481-0300 [2666 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T15:42:49,497-0300 [2666 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T15:42:49,498-0300 [2666 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T15:42:49,498-0300 [2666 1] com.newrelic INFO: Premain startup complete in 4.179ms
+2021-05-18T15:42:57,983-0300 [2666 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T15:43:14,496-0300 [2666 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T15:43:15,724-0300 [2666 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T15:43:16,602-0300 [2666 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T15:43:16,602-0300 [2666 36] com.newrelic INFO: Agent run id: BaBuDsLzO1uoAB3FrDioKppgpAssAAIBAAAnIQEAAApqAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T15:43:16,602-0300 [2666 36] com.newrelic INFO: Agent 2666@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T15:43:16,602-0300 [2666 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T15:43:16,604-0300 [2666 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:43:16,608-0300 [2666 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:43:17,351-0300 [2666 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T15:47:47,702-0300 [2666 62] com.newrelic INFO: Remote metric_data call failed : com.newrelic.agent.ForceRestartException: .
+2021-05-18T15:47:47,703-0300 [2666 62] com.newrelic WARN: Received a ForceRestartException: com.newrelic.agent.ForceRestartException: . The agent will attempt to reconnect for data reporting. If this message continues, please contact support@newrelic.com.
+2021-05-18T15:47:48,420-0300 [2666 62] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T15:47:50,843-0300 [2666 62] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T15:47:51,724-0300 [2666 62] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T15:47:51,724-0300 [2666 62] com.newrelic INFO: Agent run id: BQhRwcqzH9kKAB3FrDioKppgpAwcAAIBAAAnIQEAAApqAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T15:47:51,724-0300 [2666 62] com.newrelic INFO: Agent 2666@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T15:47:51,724-0300 [2666 62] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T15:47:51,725-0300 [2666 62] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:47:51,726-0300 [2666 62] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:47:51,729-0300 [2666 62] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T15:49:14,991-0300 [2666 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T15:49:15,336-0300 [2666 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T15:49:24,169-0300 [6760 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T15:49:24,170-0300 [6760 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T15:49:24,170-0300 [6760 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T15:49:24,170-0300 [6760 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T15:49:24,170-0300 [6760 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T15:49:24,170-0300 [6760 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T15:49:25,341-0300 [6760 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T15:49:26,683-0300 [6760 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T15:49:27,139-0300 [6760 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T15:49:27,337-0300 [6760 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T15:49:27,344-0300 [6760 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T15:49:27,345-0300 [6760 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T15:49:27,345-0300 [6760 1] com.newrelic INFO: Premain startup complete in 4.657ms
+2021-05-18T15:49:34,931-0300 [6760 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T15:49:47,345-0300 [6760 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T15:49:48,539-0300 [6760 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T15:49:49,456-0300 [6760 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T15:49:49,456-0300 [6760 36] com.newrelic INFO: Agent run id: BWHQr57iYjj_AB3FrDioKppgpAyUAAIBAAAnIQEAABpoAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T15:49:49,457-0300 [6760 36] com.newrelic INFO: Agent 6760@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T15:49:49,457-0300 [6760 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T15:49:49,459-0300 [6760 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:49:49,462-0300 [6760 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:49:50,195-0300 [6760 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T15:53:56,461-0300 [6760 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T15:53:57,176-0300 [6760 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T15:54:05,006-0300 [9420 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T15:54:05,007-0300 [9420 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T15:54:05,007-0300 [9420 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T15:54:05,007-0300 [9420 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T15:54:05,007-0300 [9420 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T15:54:05,007-0300 [9420 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T15:54:05,881-0300 [9420 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T15:54:07,261-0300 [9420 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T15:54:07,854-0300 [9420 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T15:54:08,091-0300 [9420 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T15:54:08,105-0300 [9420 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T15:54:08,105-0300 [9420 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T15:54:08,106-0300 [9420 1] com.newrelic INFO: Premain startup complete in 4.110ms
+2021-05-18T15:54:17,958-0300 [9420 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T15:54:28,104-0300 [9420 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T15:54:29,192-0300 [9420 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T15:54:30,044-0300 [9420 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T15:54:30,044-0300 [9420 36] com.newrelic INFO: Agent run id: BSl_vOzDA5WAAB3FrDioKppgpA3AAAIBAAAnIQEAACTMAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T15:54:30,045-0300 [9420 36] com.newrelic INFO: Agent 9420@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T15:54:30,045-0300 [9420 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T15:54:30,046-0300 [9420 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:54:30,049-0300 [9420 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:54:30,814-0300 [9420 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T15:59:01,915-0300 [9420 62] com.newrelic INFO: Remote metric_data call failed : com.newrelic.agent.ForceRestartException: .
+2021-05-18T15:59:01,915-0300 [9420 62] com.newrelic WARN: Received a ForceRestartException: com.newrelic.agent.ForceRestartException: . The agent will attempt to reconnect for data reporting. If this message continues, please contact support@newrelic.com.
+2021-05-18T15:59:02,659-0300 [9420 62] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T15:59:03,791-0300 [9420 62] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T15:59:04,694-0300 [9420 62] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T15:59:04,694-0300 [9420 62] com.newrelic INFO: Agent run id: BampoMHrtIXkAB3FrDioKppgpA7sAAIBAAAnIQEAACTMAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T15:59:04,694-0300 [9420 62] com.newrelic INFO: Agent 9420@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T15:59:04,694-0300 [9420 62] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T15:59:04,695-0300 [9420 62] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:59:04,696-0300 [9420 62] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T15:59:04,699-0300 [9420 62] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T16:00:52,725-0300 [9420 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T16:00:53,486-0300 [9420 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T16:01:00,296-0300 [12868 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T16:01:00,296-0300 [12868 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T16:01:00,297-0300 [12868 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T16:01:00,297-0300 [12868 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T16:01:00,297-0300 [12868 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T16:01:00,297-0300 [12868 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T16:01:01,177-0300 [12868 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T16:01:02,676-0300 [12868 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T16:01:03,132-0300 [12868 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T16:01:03,399-0300 [12868 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T16:01:03,410-0300 [12868 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T16:01:03,411-0300 [12868 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T16:01:03,411-0300 [12868 1] com.newrelic INFO: Premain startup complete in 4.168ms
+2021-05-18T16:01:11,056-0300 [12868 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T16:01:23,412-0300 [12868 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T16:01:24,160-0300 [12868 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T16:01:25,030-0300 [12868 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T16:01:25,031-0300 [12868 36] com.newrelic INFO: Agent run id: BTMJzyiMPbtcAB3FrDioKppgpA9kAAIBAAAnIQEAADJEAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T16:01:25,032-0300 [12868 36] com.newrelic INFO: Agent 12868@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T16:01:25,033-0300 [12868 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T16:01:25,035-0300 [12868 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T16:01:25,039-0300 [12868 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T16:01:25,805-0300 [12868 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T16:05:56,935-0300 [12868 62] com.newrelic INFO: Remote metric_data call failed : com.newrelic.agent.ForceRestartException: .
+2021-05-18T16:05:56,936-0300 [12868 62] com.newrelic WARN: Received a ForceRestartException: com.newrelic.agent.ForceRestartException: . The agent will attempt to reconnect for data reporting. If this message continues, please contact support@newrelic.com.
+2021-05-18T16:05:57,652-0300 [12868 62] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T16:06:00,479-0300 [12868 62] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T16:06:01,454-0300 [12868 62] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T16:06:01,454-0300 [12868 62] com.newrelic INFO: Agent run id: BTpCRBbEZS8zAB3FrDioKppgpBCQAAIBAAAnIQEAADJEAgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T16:06:01,454-0300 [12868 62] com.newrelic INFO: Agent 12868@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T16:06:01,454-0300 [12868 62] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T16:06:01,455-0300 [12868 62] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T16:06:01,457-0300 [12868 62] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T16:06:01,460-0300 [12868 62] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T16:12:36,759-0300 [12868 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T16:12:37,509-0300 [12868 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2021-05-18T16:12:48,837-0300 [18551 1] com.newrelic INFO: Writing to New Relic log file: /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/logs/newrelic_agent.log
+2021-05-18T16:12:48,838-0300 [18551 1] com.newrelic INFO: JRE vendor Private Build version 13.0.4
+2021-05-18T16:12:48,838-0300 [18551 1] com.newrelic INFO: JVM vendor Private Build OpenJDK 64-Bit Server VM version 13.0.4+8-Ubuntu-118.04
+2021-05-18T16:12:48,838-0300 [18551 1] com.newrelic INFO: OS Linux version 5.4.0-72-generic arch amd64
+2021-05-18T16:12:48,838-0300 [18551 1] com.newrelic INFO: Agent Host: ni-56353-9 IP: 127.0.1.1
+2021-05-18T16:12:48,839-0300 [18551 1] com.newrelic INFO: New Relic Agent v6.5.0 is initializing...
+2021-05-18T16:12:49,767-0300 [18551 13] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2021-05-18T16:12:51,513-0300 [18551 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2021-05-18T16:12:53,221-0300 [18551 1] com.newrelic INFO: Setting audit_mode to false
+2021-05-18T16:12:53,741-0300 [18551 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /home/ive_dduarte/workspace/spring-boot-new-relic-api/newrelic/./newrelic.yml
+2021-05-18T16:12:53,755-0300 [18551 1] com.newrelic INFO: New Relic Agent v6.5.0 has started
+2021-05-18T16:12:53,755-0300 [18551 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7c29daf3
+2021-05-18T16:12:53,755-0300 [18551 1] com.newrelic INFO: Premain startup complete in 6.299ms
+2021-05-18T16:13:03,679-0300 [18551 1] com.newrelic INFO: Server Info: Apache Tomcat/9.0.45
+2021-05-18T16:13:13,752-0300 [18551 36] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T16:13:14,832-0300 [18551 36] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T16:13:15,772-0300 [18551 36] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T16:13:15,772-0300 [18551 36] com.newrelic INFO: Agent run id: Be9QA9eV1WejAB3FrDioKppgpBI0AAIBAAAnIQEAAEh3AgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T16:13:15,772-0300 [18551 36] com.newrelic INFO: Agent 18551@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T16:13:15,773-0300 [18551 36] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T16:13:15,774-0300 [18551 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T16:13:15,776-0300 [18551 36] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T16:13:16,483-0300 [18551 36] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T16:17:47,209-0300 [18551 62] com.newrelic INFO: Remote metric_data call failed : com.newrelic.agent.ForceRestartException: .
+2021-05-18T16:17:47,211-0300 [18551 62] com.newrelic WARN: Received a ForceRestartException: com.newrelic.agent.ForceRestartException: . The agent will attempt to reconnect for data reporting. If this message continues, please contact support@newrelic.com.
+2021-05-18T16:17:47,545-0300 [18551 62] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T16:17:49,065-0300 [18551 62] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T16:17:50,044-0300 [18551 62] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T16:17:50,044-0300 [18551 62] com.newrelic INFO: Agent run id: BZngGPmGC35UAB3FrDioKppgpBMkAAIBAAAnIQEAAEh3AgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T16:17:50,045-0300 [18551 62] com.newrelic INFO: Agent 18551@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T16:17:50,045-0300 [18551 62] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T16:17:50,045-0300 [18551 62] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T16:17:50,046-0300 [18551 62] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T16:17:50,048-0300 [18551 62] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T16:21:47,310-0300 [18551 62] com.newrelic INFO: Remote metric_data call failed : com.newrelic.agent.ForceRestartException: .
+2021-05-18T16:21:47,310-0300 [18551 62] com.newrelic WARN: Received a ForceRestartException: com.newrelic.agent.ForceRestartException: . The agent will attempt to reconnect for data reporting. If this message continues, please contact support@newrelic.com.
+2021-05-18T16:21:48,072-0300 [18551 62] com.newrelic INFO: Host name is ni-56353-9, display host ni-56353-9 for application Spring Boot + New Relic
+2021-05-18T16:21:49,522-0300 [18551 62] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2021-05-18T16:21:50,398-0300 [18551 62] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2021-05-18T16:21:50,398-0300 [18551 62] com.newrelic INFO: Agent run id: BWIJk764PTsPAB3FrDioKppgpBQUAAIBAAAnIQEAAEh3AgQ4qCqZAwAFNi41LjAACm5pLTU2MzUzLTkAF1NwcmluZyBCb290ICsgTmV3IFJlbGlj
+2021-05-18T16:21:50,398-0300 [18551 62] com.newrelic INFO: Agent 18551@ni-56353-9/Spring Boot + New Relic connected to collector.newrelic.com:443
+2021-05-18T16:21:50,398-0300 [18551 62] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/1951148/applications/950545049
+2021-05-18T16:21:50,398-0300 [18551 62] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T16:21:50,400-0300 [18551 62] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2021-05-18T16:21:50,403-0300 [18551 62] com.newrelic INFO: Real user monitoring is enabled for application Spring Boot + New Relic. Auto instrumentation is enabled.
+2021-05-18T18:01:37,767-0300 [18551 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2021-05-18T18:01:38,592-0300 [18551 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
